@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    display: flex;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.side-bar {
+    display: flex;
+    flex-flow: column;
+    border-radius: 2px;
+    min-width: 240px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-right: 5px solid rgba(104, 107, 143, 0.603);
+}
+
+.side-bar_card {
+    font-size: large;
+    padding: 8px 20px;
+    background-color: rgba(104, 107, 143, 0.603);
+    margin-top: 20px;
+    border-radius: 20px;
+    justify-items: center;
+    color: rgb(255, 255, 255);
+    border-style: none;
+}
+
+.side-bar_card:hover {
+    background-color: rgba(72, 82, 197, 0.603)
+}
+
+
+.main {
+    background-image: url('./1550684469280.jpg');
+    position: center;
+    background-size: 200%;
+    background-repeat: none;
+    opacity: 80%;
+    height: 1000px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    padding: 70px 0;
+    width: 80%;
+    height: 80%;
+}
+
+.card {
+    position: relative;
+    display: block;
+    flex-flow: column;
+    margin: auto;
+}
+
+.card h3 {
+    color: white;
+    font-size: 64px;
+    text-align: center;
+}
+
+.card p {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.card img {
+    width: 600px;
+}
+
+.card-name {
+    position: relative;
+    left: -100px;
+    top: 350px;
+    overflow: visible;
+    color: white;
+    font-size: 58px;
+    text-align: center;
+}
+
+.card-name span {
+    font: bold;
+    color: rgb(85, 95, 230);
+}
+
+.card-intro {
+    background-color: rgb(85, 95, 230);
+    border: 4px solid rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+}
+
+.contact {
+    margin: auto;
+    padding: 30px 16px;
+    background-color: rgba(29, 29, 39, 0.918);
+    margin-left: 40px;
+    border: 2px solid rgba(13, 13, 15, 0.76);
+    border-radius: 12px;
+    color: white;
+    display: block;
+}
+
+.contact-form {
+    padding: 16px;
+}
+
+.contact-form_text {
+    padding-left: 20px;
+}
+
+.contact-form_text span {
+    font: bold;
+    font-size: large;
+    color: rgb(107, 116, 255);
+}
+
+#aboutMe {
+    font: bold;
+    font-size: 48px;
+    color: rgb(139, 147, 255);
+    margin-top: 10px;
+}
+
+/* style charts */
+.effect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 0;
+    margin-top: 20px;
+}
+
+#data-example-2 {
+    height: 200px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+.portfolio {
+    width: 1600px;
+    height: 800px;
+    background-color: rgba(29, 29, 39, 0.918);
+    border: 2px solid rgba(13, 13, 15, 0.76);
+    border-radius: 12px;
+    color: white;
+    display: none;
+}
+
+.portfolio-wrap-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 1300px;
+    height: 800px;
+}
+
+.item {
+    height: 250px;
+    width: 350px;
+    background-color: rgb(85, 95, 230);
+    border: 4px solid rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    text-align: center;
+}
+
+.modal {
+    display: flex;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.397);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.modal-content {
+    background-color: rgba(194, 182, 182, 0.397);
+    height: 650px;
+    width: 800px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content a {
+    text-align: center;
+}

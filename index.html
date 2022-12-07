@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,500;0,600;1,400&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/charts.css/dist/charts.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <div class="side-bar">
+            <button class="side-bar_card" id="aboutMeButton">About Me</button>
+            <button class="side-bar_card" id="portfolioButton">Portfolio</button>
+        </div>
+        <div class="main" id="main">
+            <div class="container">
+                <div class="card" id="card">
+                    <div class="card-name" id="cardName"><span>H</span>ello, <span>I</span>'m Thao</div>
+                    <img src="./img/profile/321.gif">
+                    <div class="card-intro">
+                        <h3>Web Development</h3>
+                        <p>Front End Developer</p>
+                    </div>
+                </div>
+                <div class="contact" id="contact">
+                    <div class="contact-form">
+                        <h1 id="aboutMe">About me</h1>
+                        <div class="contact-form_text">
+                            <p>こんにちは！ベトナム国籍のチェーランタオーと申します</p>
+                            <p>今年は26歳です。</p>
+                            <p>デジタルハリウッド大学コミュニケーション学部コンテンツ学科で卒業。Web、アプリ開発のフロントエンドとして日本に就職しました</p>
+                            <p>住所：東京都板橋区高島平7-27-2</p>
+                            <p>携帯：090-2533-9116</p>
+                            <div><span>Technical skils Below</span></div>
+                        </div>
+                        <div class="effect">
+                            <table class="charts-css column" class="charts-css column">
+
+                                <caption> Front End Developer Salary </caption>
+                              
+                                <tbody>
+                                  <tr>
+                                    <td style="--size: calc( 90 / 100 )"> HTML 90% </td>
+                                  </tr>
+                                  <tr>
+                                    <td style="--size: calc( 70 / 100 )"> CSS 70% </td>
+                                  </tr>
+                                  <tr>
+                                    <td style="--size: calc( 25 / 100 )"> SCSS 25% </td>
+                                  </tr>
+                                  <tr>
+                                    <td style="--size: calc( 90 / 100 )"> Javascript 90% </td>
+                                  </tr>
+                                  <tr>
+                                    <td style="--size: calc( 30 / 100 )"> Python 30% </td>
+                                  </tr>
+                                </tbody>
+                              
+                              </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio" id="portfolio">
+                    <div class="portfolio-wrap-container">
+                        <div class="item" id="modal-musicPlayer">
+                            <img src="./img/portfolio/11.png" alt="" style="height: 250px; width: 350px">
+                            <p>Music Player</p>
+                        </div>
+                        <div class="item" id="modal-jamming">
+                            <img src="./img/portfolio/22.png" alt="" style="height: 250px; width: 350px">
+                            <p>Jamming</p>
+                        </div>
+                        <div class="item" id="modal-appointment">
+                            <img src="./img/portfolio/33.png" alt="" style="height: 250px; width: 350px">
+                            <p>Appoinment Planner</p>
+                        </div>
+                        <div class="item" id="modal-adopter">
+                            <img src="./img/portfolio/44.png" alt="" style="height: 250px; width: 350px">
+                            <p>Pet Adopter</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="music-player" style="display: none">
+            <div class="modal-content">
+                <iframe width="800" height="600"
+                src="https://www.youtube.com/embed/Ynns7tqz6iQ">
+                </iframe>
+                <a href="https://koiirosora96.github.io/Music-Player/">https://koiirosora96.github.io/Music-Player/</a>
+            </div>
+        </div>
+        <div class="modal" id="jammming" style="display: none">
+            <div class="modal-content">
+                <iframe width="800" height="600"
+                src="https://www.youtube.com/embed/7faIUhGNcDM">
+                </iframe>
+                <a href="https://app.netlify.com/sites/wonderful-daffodil-c445d3/overview">https://app.netlify.com/sites/wonderful-daffodil-c445d3/overview</a>
+            </div>
+        </div>
+        <div class="modal" id="appointment" style="display: none">
+            <div class="modal-content">
+                <iframe width="800" height="600"
+                src="https://www.youtube.com/embed/kF6uFY7-ApU">
+                </iframe>
+                <a href="https://adorable-cendol-0d393a.netlify.app/contacts">https://adorable-cendol-0d393a.netlify.app/contacts</a>
+            </div>
+        </div>
+        <div class="modal" id="adopter" style="display: none">
+            <div class="modal-content">
+                <iframe width="800" height="600"
+                src="https://www.youtube.com/embed/w3PZxCY78nM">
+                </iframe>
+                <a href="https://jazzy-horse-928a59.netlify.app/">https://jazzy-horse-928a59.netlify.app/</a>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
